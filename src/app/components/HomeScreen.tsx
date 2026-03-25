@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import coverImg from '../assets/cover-img.jpg';
 
 interface HomeScreenProps {
   onDrawOmikuji: () => void;
@@ -58,7 +59,7 @@ export function HomeScreen({ onDrawOmikuji }: HomeScreenProps) {
       >
         <div className="w-full aspect-square max-w-sm relative">
           <img
-            src="figma:asset/74c3d58e4c21c21395ea06263488ef360df78f5b.png"
+            src={coverImg}
             alt="カフェで対話する二人の少女"
             className="w-full h-full object-contain"
           />
@@ -89,7 +90,7 @@ export function HomeScreen({ onDrawOmikuji }: HomeScreenProps) {
           </button>
 
           <p className="text-center text-gray-400 text-xs mt-4">
-            技術書典で頒布中
+            技術書典20にて新刊として頒布します
           </p>
         </motion.div>
       </div>

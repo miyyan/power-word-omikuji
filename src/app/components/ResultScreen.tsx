@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Share2, ShoppingBag, RotateCcw } from "lucide-react";
 import { useEffect } from "react";
 import confetti from "canvas-confetti";
+import coverImg from '../assets/cover-img.jpg';
 
 interface PowerWord {
   id: number;
@@ -62,7 +63,7 @@ export function ResultScreen({
   const handlePurchase = () => {
     // Placeholder URL - replace with actual purchase link
     window.open(
-      "https://techbookfest.org/",
+      "https://techbookfest.org/product/qpuE2JtLZcWz4hTM8bN0Ck",
       "_blank",
       "noopener,noreferrer",
     );
@@ -125,7 +126,8 @@ export function ResultScreen({
       ) : (
         <div className="absolute inset-0 opacity-5">
           <img
-            src="figma:asset/26e4aecf4823c5a874c889aa1fb2e2ea46e03136.png"
+            // src="figma:asset/26e4aecf4823c5a874c889aa1fb2e2ea46e03136.png"
+            src={coverImg}
             alt="背景"
             className="w-full h-full object-cover"
           />
