@@ -55,7 +55,7 @@ export function ResultScreen({
   }, [isGodLevel]);
 
   const handleShare = () => {
-    const text = `【${powerWord.rank}】\n${powerWord.word}\n\n#理工系文学少女 #技術書典`;
+    const text = `【${powerWord.rank}】\n${powerWord.word}\n\n#理工系文学少女 #技術書典\nパワーワードおみくじ\nhttps://miyyan.github.io/power-word-omikuji/`;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };
