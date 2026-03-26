@@ -11,9 +11,9 @@
 
 ## ✨ デモ
 
-![ホーム画面](docs/img/home-screen.png)
-![結果画面](docs/img/result-screen.png)
-![神級演出](docs/img/god-level.png)
+<img src="docs/img/home-screen.png" width="300px" alt="ホーム画面">
+<img src="docs/img/result-screen.png" width="300px" alt="結果画面">
+<img src="docs/img/god-level.png" width="300px" alt="神級演出">
 
 ## 主な機能
 
